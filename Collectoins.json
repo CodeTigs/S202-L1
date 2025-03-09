@@ -1,0 +1,35 @@
+{
+    "Aulas": [
+      {
+        "professor": {"nome": "Lucas"},
+        "assunto": "Programação Orientada a Objetos",
+        "alunos": [
+          {"nome": "Maria"},
+          {"nome": "Pedro"},
+          {"nome": "Ana"},
+          {"nome": "João"}
+        ]
+      },
+      {
+        "professor": {"nome": "Fernanda"},
+        "assunto": "Banco de Dados",
+        "alunos": [
+          {"nome": "Carlos"},
+          {"nome": "Beatriz"},
+          {"nome": "Rafael"},
+          {"nome": "Juliana"}
+        ]
+      },
+      {
+        "professor": {"nome": "Marcos"},
+        "assunto": "Redes de Computadores",
+        "alunos": [
+          {"nome": "Gabriela"},
+          {"nome": "Leonardo"},
+          {"nome": "Sofia"},
+          {"nome": "Vinícius"}
+        ]
+      }
+    ]
+  }
+  
