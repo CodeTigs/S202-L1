@@ -1,0 +1,10 @@
+from database import Database
+
+db = Database(database="mercado", collection="compras")
+
+# Testa se há dados na coleção
+result = db.collection.find_one()
+if result:
+    print("✅ Conectado! Exemplo de dado:", result)
+else:
+    print("⚠️ Banco de dados vazio! Execute `resetDatabase()`")
